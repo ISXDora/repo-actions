@@ -1,0 +1,23 @@
+{
+  "name": "repo-actions",
+  "version": "1.0.0",
+  "description": "Repo de aprenizado com actins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISXDora/repo-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ISXDora/repo-actions/issues"
+  },
+  "homepage": "https://github.com/ISXDora/repo-actions#readme",
+  "dependencies": {
+    "node": "^22.7.0"
+  }
+}
