@@ -17,9 +17,9 @@ jobs:
           echo "Você criou o seu primeiro workflow!"
           echo "Show!"
       - uses: actions/checkout@v4
-      - name: List files in the repository
+      - name: "Shell Script"
         run: |
-          ls ${{ github.workspace }}
+          script.sh
         
         
           
