@@ -18,6 +18,7 @@ jobs:
           echo "Show!"
       - uses: actions/checkout@v4
       - name: "Shell Script"
+        working-directory: ./
         run: |
           script.sh
         
