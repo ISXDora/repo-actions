@@ -16,11 +16,9 @@ jobs:
         run: |
           echo "Você criou o seu primeiro workflow!"
           echo "Show!"
-      - uses: actions/checkout@v4
       - name: "Shell Script"
-        working-directory: ./
         run: |
-          script.sh
+          ./script.sh
         
         
           
