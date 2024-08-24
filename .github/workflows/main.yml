@@ -17,7 +17,6 @@ jobs:
           echo "Você criou o seu primeiro workflow!"
           echo "Show!"
       - name: "Executando script bash"
-        working-directory: .
         run: | 
           script.sh
         
