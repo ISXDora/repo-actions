@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Olá, pessoas!
+echo "Olá, pessoas!"
