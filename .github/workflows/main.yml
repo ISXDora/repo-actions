@@ -21,7 +21,7 @@ jobs:
         run: |
           ls -la
           chown runner:docker script.sh
-          chmod 400 script.sh
+          chmod 500 script.sh
           ./script.sh
         
         
