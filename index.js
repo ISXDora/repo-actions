@@ -12,10 +12,6 @@ const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/html');
     res.write('<h1>Bem vindo!</>\n');
-  }else{
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/html');
-    res.write('<h1>Final!</>\n');
   }
   res.end('ok')
 });
