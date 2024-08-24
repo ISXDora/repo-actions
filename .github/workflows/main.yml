@@ -29,5 +29,11 @@ jobs:
     steps:
       - name: "Versão do Node.js"
         run: node --version
-        
+      - name: "Instalando versão atual no node"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20.17'
+      - name: "Verificando versão atual do node"
+        run: node --version
+                
           
