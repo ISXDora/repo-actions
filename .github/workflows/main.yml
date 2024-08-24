@@ -16,9 +16,9 @@ jobs:
         run: |
           echo "Você criou o seu primeiro workflow!"
           echo "Show!"
-      - name: "Executando script bash"
-        run: | 
-          script.sh
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
         
         
           
