@@ -1,9 +1,10 @@
 name: primeira-pipeline
+
 on:
   push:
     branches:
       - developer 
-  workflow_dispatch: true
+  workflow_dispatch: 
 jobs:
   primeiro-job:
     name: "Meu primeiro job"
