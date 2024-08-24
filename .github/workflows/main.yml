@@ -23,6 +23,11 @@ jobs:
           chown runner:docker script.sh
           chmod 500 script.sh
           ./script.sh
-        
+  segundo-job:
+    name: "Segundo Job"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Versão do Node.js"
+        run: node --version
         
           
