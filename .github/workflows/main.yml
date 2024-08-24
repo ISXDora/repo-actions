@@ -20,7 +20,7 @@ jobs:
       - name: "Shell Script"
         run: |
           ls -la
-          chown docker:docker script.sh
+          chown runner:docker script.sh
           chmod 400 script.sh
           ./script.sh
         
