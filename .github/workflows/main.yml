@@ -32,6 +32,8 @@ jobs:
       - name: "Instalando versão atual no node"
       - uses: actions/setup-node@v4
         with:
-          node-version: '22.7.0'
+          node-version: 22
+      - name: "Versão do Node.js"
+        run: node --version
                 
           
