@@ -16,7 +16,6 @@ jobs:
         run: |
           echo "Você criou o seu primeiro workflow!"
           echo "Show!"
-      - name: "Checkout"
       - uses: actions/checkout@v4
       - name: List files in the repository
         run: |
