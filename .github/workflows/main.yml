@@ -32,7 +32,7 @@ jobs:
       - name: "Instalando versão atual no node"
       - uses: actions/setup-node@v4
         with:
-          node-version: '20.17'
+          node-version: '20.17.0'
       - name: "Verificando versão atual do node"
         run: node --version
                 
