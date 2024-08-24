@@ -16,3 +16,11 @@ Na ramificação de release, esse código é passado pelos estágios de qualidad
 Caso haja algum problema descoberto em ambiente de produção, é criada uma nova ramificação descendnte da branch principal que está relacionada ao ambiente produtivo, e então, é feita sua correção em uma branch com prefixo hotfix. 
 
 Ao corrigir o bug, a branch com prefixo hotfix é mesclada com a branch principal e se houver necessidade, também será mesclada com o ambiente de desenvolvimento, isso evita que as próximas entregas substituam alguma correção já realizada em ambiente produtivo. 
+
+## GitHub Flow 
+
+O GitHub flow, utiliza uma branch principal que reflete o ambiente produtivo e branchs de mudança. 
+
+Ao implementar uma nova feature ou correção de bug, dentro de uma branch _change_, é realizado uma solicitação de _pull request_ para que o código, após revisão por um ou mais pares, seja integrado a branch principal. 
+
+A branch principal está sempre no estado pronto para produção. 
